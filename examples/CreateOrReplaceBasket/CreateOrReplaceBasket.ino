@@ -38,7 +38,7 @@ void setup()
     Serial.println("\nConnected!");
 
     // Create or replace a basket
-    Serial.println("Creating or replacing basket '");
+    Serial.println("Creating or replacing basket...");
     JsonDocument basketDoc;
     basketDoc["sensor"] = "humidity";
     basketDoc["value"] = 55.2;

@@ -45,7 +45,7 @@ void setup()
     Serial.println("\nConnected!");
 
     // Get basket contents
-    Serial.println("Reading basket '");
+    Serial.println("Reading basket...");
     JsonDocument basketDoc;
     if (client.getBasket(BASKET_NAME, basketDoc))
     {

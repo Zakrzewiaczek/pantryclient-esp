@@ -38,7 +38,7 @@ void setup()
     Serial.println("\nConnected!");
 
     // Update basket contents
-    Serial.println("Updating basket '");
+    Serial.println("Updating basket...");
     JsonDocument updateDoc;
     updateDoc["newKey"] = "newValue";
     updateDoc["timestamp"] = millis();

@@ -38,7 +38,7 @@ void setup()
     Serial.println("\nConnected!");
 
     // Delete basket
-    Serial.println("Deleting basket '");
+    Serial.println("Deleting basket...");
     if (client.deleteBasket(BASKET_NAME))
     {
         Serial.println("Basket deleted successfully.");
