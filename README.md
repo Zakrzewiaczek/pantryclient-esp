@@ -11,9 +11,8 @@ A simple Arduino client for the [Pantry](https://getpantry.cloud/) service, allo
 - Supports both ESP32 and ESP8266 platforms.
 - Uses the efficient [ArduinoJson](https://arduinojson.org/) library for data handling.
 
-## Dependencies
-
-- **ArduinoJson** by Benoît Blanchon (version 7.x recommended)
+> [!IMPORTANT]  
+> The library uses the Arduino library **ArduinoJson** by Benoît Blanchon (version 7.3.1 recommended)
 
 ## Security Note
 
