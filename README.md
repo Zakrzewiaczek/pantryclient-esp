@@ -12,7 +12,7 @@ A simple Arduino client for the [Pantry](https://getpantry.cloud/) service, allo
 - Uses the efficient [ArduinoJson](https://arduinojson.org/) library for data handling.
 
 > [!IMPORTANT]  
-> The library uses the Arduino library **ArduinoJson** by Benoît Blanchon (version 7.3.1 recommended)
+> The library uses the Arduino library **ArduinoJson** by Benoît Blanchon (version 7.3.2 recommended)
 
 ## Security Note
 
