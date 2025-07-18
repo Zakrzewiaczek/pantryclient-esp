@@ -2,7 +2,7 @@
 
 [![Compatibility](https://img.shields.io/badge/Compatibility-ESP32%20%7C%20ESP8266-blue)](https://www.espressif.com/)
 
-A simple Arduino client for the [getpantry.cloud](https://getpantry.cloud/) API, allowing you to store and retrieve JSON data from your ESP32 or ESP8266 projects.
+A simple Arduino client for the [Pantry](https://getpantry.cloud/) service, allowing you to store and retrieve JSON data from your ESP32 or ESP8266 projects.
 
 ## Features
 
