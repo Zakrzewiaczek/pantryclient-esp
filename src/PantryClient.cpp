@@ -1,4 +1,3 @@
-
 // Uncomment the line below to enable debug logging for PantryClient.
 // #define DEBUG
 
@@ -59,7 +58,6 @@ bool PantryClient::updatePantryDetails(const JsonDocument &doc)
     return (httpCode == HTTP_CODE_OK);
 }
 
-// --- Metody dla koszyków (z poprawkami) ---
 bool PantryClient::getBasket(const String &basketName, JsonDocument &doc)
 {
     String url = String(BASE_URL) + _pantryId + "/basket/" + basketName;
